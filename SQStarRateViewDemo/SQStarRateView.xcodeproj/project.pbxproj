@@ -14,9 +14,7 @@
 		42FCB51D1E610AC2007459CA /* SQStarRateView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42FCB51B1E610AC2007459CA /* SQStarRateView.xcdatamodeld */; };
 		42FCB51F1E610AC2007459CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FCB51E1E610AC2007459CA /* Assets.xcassets */; };
 		42FCB5221E610AC2007459CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FCB5201E610AC2007459CA /* LaunchScreen.storyboard */; };
-		42FCB52C1E610EA6007459CA /* SQStarRatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FCB52B1E610EA6007459CA /* SQStarRatedView.m */; };
-		42FCB5321E611AF6007459CA /* foreground_star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FCB5311E611AF6007459CA /* foreground_star@3x.png */; };
-		42FCB5341E611B2D007459CA /* background_star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FCB5331E611B2D007459CA /* background_star@3x.png */; };
+		892F1C2A067757FA7B1C48A1 /* libPods-SQStarRateView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3760291246A342871A59ADE /* libPods-SQStarRateView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +29,9 @@
 		42FCB51E1E610AC2007459CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FCB5211E610AC2007459CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FCB5231E610AC2007459CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42FCB52A1E610EA6007459CA /* SQStarRatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQStarRatedView.h; sourceTree = "<group>"; };
-		42FCB52B1E610EA6007459CA /* SQStarRatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQStarRatedView.m; sourceTree = "<group>"; };
-		42FCB5311E611AF6007459CA /* foreground_star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foreground_star@3x.png"; sourceTree = "<group>"; };
-		42FCB5331E611B2D007459CA /* background_star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_star@3x.png"; sourceTree = "<group>"; };
+		7975E28A7FE4A4B109013A0A /* Pods-SQStarRateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQStarRateView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQStarRateView/Pods-SQStarRateView.debug.xcconfig"; sourceTree = "<group>"; };
+		D3760291246A342871A59ADE /* libPods-SQStarRateView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQStarRateView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4898AAE7A138DCD8AEE00B5 /* Pods-SQStarRateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQStarRateView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQStarRateView/Pods-SQStarRateView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892F1C2A067757FA7B1C48A1 /* libPods-SQStarRateView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B475948A2BA73513EA90C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3760291246A342871A59ADE /* libPods-SQStarRateView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42FCB5031E610AC2007459CA = {
 			isa = PBXGroup;
 			children = (
 				42FCB50E1E610AC2007459CA /* SQStarRateView */,
 				42FCB50D1E610AC2007459CA /* Products */,
+				8D68C393D97F0414F2B6EAC0 /* Pods */,
+				04B475948A2BA73513EA90C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +79,6 @@
 				42FCB5131E610AC2007459CA /* AppDelegate.m */,
 				42FCB5151E610AC2007459CA /* ViewController.h */,
 				42FCB5161E610AC2007459CA /* ViewController.m */,
-				42FCB5291E610E91007459CA /* SQStarRatedView */,
 				42FCB5181E610AC2007459CA /* Main.storyboard */,
 				42FCB51E1E610AC2007459CA /* Assets.xcassets */,
 				42FCB5201E610AC2007459CA /* LaunchScreen.storyboard */,
@@ -90,15 +97,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		42FCB5291E610E91007459CA /* SQStarRatedView */ = {
+		8D68C393D97F0414F2B6EAC0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42FCB5331E611B2D007459CA /* background_star@3x.png */,
-				42FCB5311E611AF6007459CA /* foreground_star@3x.png */,
-				42FCB52A1E610EA6007459CA /* SQStarRatedView.h */,
-				42FCB52B1E610EA6007459CA /* SQStarRatedView.m */,
+				7975E28A7FE4A4B109013A0A /* Pods-SQStarRateView.debug.xcconfig */,
+				E4898AAE7A138DCD8AEE00B5 /* Pods-SQStarRateView.release.xcconfig */,
 			);
-			path = SQStarRatedView;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FCB5261E610AC2007459CA /* Build configuration list for PBXNativeTarget "SQStarRateView" */;
 			buildPhases = (
+				AE94E71A40B971D6CFB10142 /* [CP] Check Pods Manifest.lock */,
 				42FCB5081E610AC2007459CA /* Sources */,
 				42FCB5091E610AC2007459CA /* Frameworks */,
 				42FCB50A1E610AC2007459CA /* Resources */,
+				DC514BFF808EF2EE90F6244C /* [CP] Embed Pods Frameworks */,
+				3F70D9FD68C14DD82ED46CEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,8 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FCB5321E611AF6007459CA /* foreground_star@3x.png in Resources */,
-				42FCB5341E611B2D007459CA /* background_star@3x.png in Resources */,
 				42FCB5221E610AC2007459CA /* LaunchScreen.storyboard in Resources */,
 				42FCB51F1E610AC2007459CA /* Assets.xcassets in Resources */,
 				42FCB51A1E610AC2007459CA /* Main.storyboard in Resources */,
@@ -169,6 +175,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F70D9FD68C14DD82ED46CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQStarRateView/Pods-SQStarRateView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE94E71A40B971D6CFB10142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC514BFF808EF2EE90F6244C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQStarRateView/Pods-SQStarRateView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42FCB5081E610AC2007459CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -176,7 +230,6 @@
 			files = (
 				42FCB51D1E610AC2007459CA /* SQStarRateView.xcdatamodeld in Sources */,
 				42FCB5171E610AC2007459CA /* ViewController.m in Sources */,
-				42FCB52C1E610EA6007459CA /* SQStarRatedView.m in Sources */,
 				42FCB5141E610AC2007459CA /* AppDelegate.m in Sources */,
 				42FCB5111E610AC2007459CA /* main.m in Sources */,
 			);
@@ -286,6 +339,7 @@
 		};
 		42FCB5271E610AC2007459CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7975E28A7FE4A4B109013A0A /* Pods-SQStarRateView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SQStarRateView/Info.plist;
@@ -297,6 +351,7 @@
 		};
 		42FCB5281E610AC2007459CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4898AAE7A138DCD8AEE00B5 /* Pods-SQStarRateView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SQStarRateView/Info.plist;

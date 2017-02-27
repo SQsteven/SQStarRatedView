@@ -1,0 +1,12 @@
+PODS:
+  - SQStarRatedView (1.0.0)
+
+DEPENDENCIES:
+  - SQStarRatedView (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  SQStarRatedView: ac69a0638f6e7273ea93c33e5a09b5cbd98efde2
+
+PODFILE CHECKSUM: 399130549199abc70b4cca4e8b9acde41ab386b3
+
+COCOAPODS: 1.0.1
