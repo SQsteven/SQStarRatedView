@@ -34,8 +34,6 @@
  */
 @property (nonatomic, assign) BOOL allowIncompleteStar;
 
-@property (nonatomic, strong) UIImage *foregroundImage;
-@property (nonatomic, strong) UIImage *backgroundImage;
 /**
  *  设置代理
  */

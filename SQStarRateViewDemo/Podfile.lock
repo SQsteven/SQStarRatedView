@@ -1,12 +1,12 @@
 PODS:
-  - SQStarRatedView (1.0.0)
+  - SQStarRatedView (1.0.1)
 
 DEPENDENCIES:
-  - SQStarRatedView (~> 1.0.0)
+  - SQStarRatedView (~> 1.0.1)
 
 SPEC CHECKSUMS:
-  SQStarRatedView: ac69a0638f6e7273ea93c33e5a09b5cbd98efde2
+  SQStarRatedView: 2185990f45c3dda9538c6c0dcfd79ebf151568de
 
-PODFILE CHECKSUM: 399130549199abc70b4cca4e8b9acde41ab386b3
+PODFILE CHECKSUM: a2900df678f455a936587d8527356539b6d50f21
 
 COCOAPODS: 1.0.1

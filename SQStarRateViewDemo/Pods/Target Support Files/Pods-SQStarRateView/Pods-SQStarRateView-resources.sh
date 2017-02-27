@@ -80,11 +80,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "SQStarRatedView/SQStarRatedView/Resources/background_unstar@3x.png"
+  install_resource "SQStarRatedView/SQStarRatedView/Resources/background_star@3x.png"
   install_resource "SQStarRatedView/SQStarRatedView/Resources/foreground_star@3x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "SQStarRatedView/SQStarRatedView/Resources/background_unstar@3x.png"
+  install_resource "SQStarRatedView/SQStarRatedView/Resources/background_star@3x.png"
   install_resource "SQStarRatedView/SQStarRatedView/Resources/foreground_star@3x.png"
 fi
 

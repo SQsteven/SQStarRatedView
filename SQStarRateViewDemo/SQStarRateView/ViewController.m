@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <SQStarRatedView.h>
 
-@interface ViewController ()
+@interface ViewController ()<SQStarRatedViewDelegate>
 
 @property (nonatomic, strong) SQStarRatedView *starRatedView;
 
@@ -20,15 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    SQStarRatedView *view = [[SQStarRatedView alloc] initWithFrame:CGRectMake(100, 100, 100, 20)];
-//    [self.view addSubview:view];
     self.starRatedView = [[SQStarRatedView alloc] initWithFrame:CGRectMake(10, 100, 200, 19) numberOfStars:5];
     self.starRatedView.scorePercent = 0;
     self.starRatedView.delegate = self;
-    //    self.starRateView.allowIncompleteStar = YES;
     self.starRatedView.allowIncompleteStar = NO;
     self.starRatedView.hasAnimation = YES;
-    [self.view addSubview:self.starRateView];
+    [self.view addSubview:self.starRatedView];
+}
+
+- (void)starRateView:(SQStarRatedView *)starRateView scroePercentDidChange:(CGFloat)newScorePercent
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {

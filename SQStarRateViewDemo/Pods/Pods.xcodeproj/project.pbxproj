@@ -27,9 +27,9 @@
 
 /* Begin PBXFileReference section */
 		05FD2F5BB098C7C482FD5464B100AEAB /* SQStarRatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQStarRatedView.h; path = SQStarRatedView/SQStarRatedView.h; sourceTree = "<group>"; };
+		0D0A81983BDD23D1BA64BDD68491D606 /* background_star@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "background_star@3x.png"; path = "SQStarRatedView/Resources/background_star@3x.png"; sourceTree = "<group>"; };
 		255126F91A2927DCC4BB7E67B2F0AACB /* Pods-SQStarRateView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQStarRateView-resources.sh"; sourceTree = "<group>"; };
 		2B1767CB2F946242081EB4659DDA6575 /* Pods-SQStarRateView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQStarRateView-dummy.m"; sourceTree = "<group>"; };
-		2C887DE9007E96776BECDF64CAB34A1C /* foreground_star@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "foreground_star@3x.png"; path = "SQStarRatedView/Resources/foreground_star@3x.png"; sourceTree = "<group>"; };
 		3DB4D13FE7A647793421FCD7146C55E6 /* Pods-SQStarRateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQStarRateView.debug.xcconfig"; sourceTree = "<group>"; };
 		55D51FDCCEA6CB71F3783C5C46EBE3EC /* libSQStarRatedView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQStarRatedView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		709B1996DDF41E89FD949D1EA32B1518 /* SQStarRatedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQStarRatedView-dummy.m"; sourceTree = "<group>"; };
@@ -40,8 +40,8 @@
 		B0FE72A0D836C669A13735551D576DD8 /* SQStarRatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQStarRatedView.m; path = SQStarRatedView/SQStarRatedView.m; sourceTree = "<group>"; };
 		C451835296576DFCE66AC7052D890382 /* libPods-SQStarRateView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQStarRateView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D62A1F4554A0F958F0D7EBEEB3E39B80 /* background_unstar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "background_unstar@3x.png"; path = "SQStarRatedView/Resources/background_unstar@3x.png"; sourceTree = "<group>"; };
 		D97D42DEBA3F9B997A274B5EF043C160 /* Pods-SQStarRateView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQStarRateView-frameworks.sh"; sourceTree = "<group>"; };
+		E489B7FBEB7085F8B9917CC4094DE2B8 /* foreground_star@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "foreground_star@3x.png"; path = "SQStarRatedView/Resources/foreground_star@3x.png"; sourceTree = "<group>"; };
 		E7BC3CE85911D6BD47446A19F01435EA /* SQStarRatedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQStarRatedView.xcconfig; sourceTree = "<group>"; };
 		FF0D5EBD2F5A3CF7FE004C138BD8EC4A /* Pods-SQStarRateView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQStarRateView-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,15 +74,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		19BBAD8403BA2B92A11E212FB47D720E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D62A1F4554A0F958F0D7EBEEB3E39B80 /* background_unstar@3x.png */,
-				2C887DE9007E96776BECDF64CAB34A1C /* foreground_star@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		26B93186E6CEEAC5EF85A028B752B533 /* Pods-SQStarRateView */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +103,15 @@
 				26B93186E6CEEAC5EF85A028B752B533 /* Pods-SQStarRateView */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6145074F8C9178BE3EAB6F8546161783 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A81983BDD23D1BA64BDD68491D606 /* background_star@3x.png */,
+				E489B7FBEB7085F8B9917CC4094DE2B8 /* foreground_star@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -158,7 +158,7 @@
 			children = (
 				05FD2F5BB098C7C482FD5464B100AEAB /* SQStarRatedView.h */,
 				B0FE72A0D836C669A13735551D576DD8 /* SQStarRatedView.m */,
-				19BBAD8403BA2B92A11E212FB47D720E /* Resources */,
+				6145074F8C9178BE3EAB6F8546161783 /* Resources */,
 				902C186B37121BC9FDE6266DBBEB69F9 /* Support Files */,
 			);
 			path = SQStarRatedView;
