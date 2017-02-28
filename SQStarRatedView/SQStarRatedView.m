@@ -8,8 +8,8 @@
 
 #import "SQStarRatedView.h"
 
-#define FOREGROUND_STAR_IMAGE_NAME @"foreground_star"
-#define BACKGROUND_STAR_IMAGE_NAME @"background_star"
+#define FOREGROUND_STAR_IMAGE_NAME @"sq_foreground_star"
+#define BACKGROUND_STAR_IMAGE_NAME @"sq_background_star"
 #define DEFALUT_STAR_NUMBER 5
 #define ANIMATION_TIME_INTERVAL 0.2
 
@@ -36,7 +36,7 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
         _numberOfStars = DEFALUT_STAR_NUMBER;
-        [self buildUIWithforgroundImage:FOREGROUND_STAR_IMAGE_NAME backgroundImage:BACKGROUND_STAR_IMAGE_NAME];
+        [self buildUIWithforegroundImage:FOREGROUND_STAR_IMAGE_NAME backgroundImage:BACKGROUND_STAR_IMAGE_NAME];
     }
     return self;
 }
@@ -44,34 +44,34 @@
 - (instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars {
     if (self = [super initWithFrame:frame]) {
         _numberOfStars = numberOfStars;
-        [self buildUIWithforgroundImage:FOREGROUND_STAR_IMAGE_NAME backgroundImage:BACKGROUND_STAR_IMAGE_NAME];
+        [self buildUIWithforegroundImage:FOREGROUND_STAR_IMAGE_NAME backgroundImage:BACKGROUND_STAR_IMAGE_NAME];
     }
     return self;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame forgroundImageName:(NSString *)forgroundImageName backgImage:(NSString *)backgroundImageName
+- (instancetype)initWithFrame:(CGRect)frame foregroundImageName:(NSString *)foregroundImageName backgImage:(NSString *)backgroundImageName
 {
     if (self = [super initWithFrame:frame]) {
-        [self buildUIWithforgroundImage:forgroundImageName backgroundImage:backgroundImageName];
+        [self buildUIWithforegroundImage:foregroundImageName backgroundImage:backgroundImageName];
     }
     return self;
 }
 
 #pragma mark - Private Methods
 
-- (void)setForgroundStarImageName:(NSString *)forgroundImageName backgroundStarImageName:(NSString *)backgroundImageName
+- (void)setForegroundStarImageName:(NSString *)foregroundImageName backgroundStarImageName:(NSString *)backgroundImageName
 {
-    self.foregroundStarView = [self createStarViewWithImage:forgroundImageName];
+    self.foregroundStarView = [self createStarViewWithImage:foregroundImageName];
     self.backgroundStarView = [self createStarViewWithImage:backgroundImageName];
 }
 
-- (void)buildUIWithforgroundImage:(NSString *)forgroundImageName backgroundImage:(NSString *)backgroundImageName
+- (void)buildUIWithforegroundImage:(NSString *)foregroundImageName backgroundImage:(NSString *)backgroundImageName
 {
     _scorePercent = 1;//默认为1
     _hasAnimation = NO;//默认为NO
     _allowIncompleteStar = NO;//默认为NO
     
-    [self setForgroundStarImageName:forgroundImageName backgroundStarImageName:backgroundImageName];
+    [self setForegroundStarImageName:foregroundImageName backgroundStarImageName:backgroundImageName];
     [self addSubview:self.backgroundStarView];
     [self addSubview:self.foregroundStarView];
     

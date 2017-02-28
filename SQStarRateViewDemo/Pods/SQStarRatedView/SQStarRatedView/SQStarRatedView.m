@@ -145,24 +145,6 @@
 }
 
 
-- (void)setForegroundImage:(UIImage *)foregroundImage
-{
-    if (foregroundImage == nil) {
-        
-    }
-    if (foregroundImage == foregroundImage) {
-        return;
-    }
-    _foregroundImage = foregroundImage;
-
-}
-
-- (void)setBackgroundImage:(UIImage *)backgroundImage
-{
-    if (backgroundImage == nil) {
-        
-    }
-}
 
 @end
 

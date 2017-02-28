@@ -6,6 +6,6 @@ target 'SQStarRateView' do
   # use_frameworks!
 
   # Pods for SQStarRateView
-pod 'SQStarRatedView', '~> 1.0.1'
+pod 'SQStarRatedView', '~> 1.0.2'
 
 end

@@ -41,6 +41,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars;
 
-- (instancetype)initWithFrame:(CGRect)frame forgroundImageName:(NSString *)forgroundImageName backgImage:(NSString *)backgroundImageName;
+- (instancetype)initWithFrame:(CGRect)frame foregroundImageName:(NSString *)foregroundImageName backgImage:(NSString *)backgroundImageName;
 
 @end

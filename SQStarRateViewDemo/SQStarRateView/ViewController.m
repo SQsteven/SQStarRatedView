@@ -26,6 +26,19 @@
     self.starRatedView.allowIncompleteStar = NO;
     self.starRatedView.hasAnimation = YES;
     [self.view addSubview:self.starRatedView];
+    
+    
+    NSString *aString = @"adddda";
+    CGSize size =[aString sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]}];
+    UILabel *lb = [[UILabel alloc] init];
+    [self.view addSubview:lb];
+    lb.text = aString;
+    lb.frame = CGRectMake(100, 300, size.width, size.height);
+//    NSAttributedString* atrString = [[NSAttributedString alloc] initWithString:aString];
+//    NSRange range = NSMakeRange(0, atrString.length);
+//    NSDictionary *dic = [atrString attributesAtIndex:0 effectiveRange:&range];
+    
+//    size = [aString boundingRectWithSize:CGSizeMake(237, 200)  options:NSStringDrawingUsesLineFragmentOriginattributes:diccontext:nil].size;
 }
 
 - (void)starRateView:(SQStarRatedView *)starRateView scroePercentDidChange:(CGFloat)newScorePercent

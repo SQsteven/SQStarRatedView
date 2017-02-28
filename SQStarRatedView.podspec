@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "SQStarRatedView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "用来评星星."
   s.description  = <<-DESC
 用来评星星的，支持开/关动画、支持开／关非整星显示，支持手势
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # Or just: s.author    = "严顺泉"
   # s.authors            = { "严顺泉" => "782569375@qq.com" }
    s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/SQsteven/SQStarRatedView", :tag => '1.0.1' }
+  s.source       = { :git => "https://github.com/SQsteven/SQStarRatedView", :tag => '1.0.2' }
   s.source_files  = "SQStarRatedView/*.{h,m}"
   # s.public_header_files = "Classes/**/*.h"
   # s.resource  = "icon.png"
