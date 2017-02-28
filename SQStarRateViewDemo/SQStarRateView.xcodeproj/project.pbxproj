@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422C905D1E650ACD00FF8C9F /* sq_background_star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 422C90591E650ACD00FF8C9F /* sq_background_star@3x.png */; };
+		422C905E1E650ACD00FF8C9F /* sq_foreground_star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 422C905A1E650ACD00FF8C9F /* sq_foreground_star@3x.png */; };
+		422C905F1E650ACD00FF8C9F /* SQStarRatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C905C1E650ACD00FF8C9F /* SQStarRatedView.m */; };
 		42FCB5111E610AC2007459CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FCB5101E610AC2007459CA /* main.m */; };
 		42FCB5141E610AC2007459CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FCB5131E610AC2007459CA /* AppDelegate.m */; };
 		42FCB5171E610AC2007459CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FCB5161E610AC2007459CA /* ViewController.m */; };
@@ -18,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422C90591E650ACD00FF8C9F /* sq_background_star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sq_background_star@3x.png"; sourceTree = "<group>"; };
+		422C905A1E650ACD00FF8C9F /* sq_foreground_star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sq_foreground_star@3x.png"; sourceTree = "<group>"; };
+		422C905B1E650ACD00FF8C9F /* SQStarRatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQStarRatedView.h; sourceTree = "<group>"; };
+		422C905C1E650ACD00FF8C9F /* SQStarRatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQStarRatedView.m; sourceTree = "<group>"; };
 		42FCB50C1E610AC2007459CA /* SQStarRateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQStarRateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FCB5101E610AC2007459CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42FCB5121E610AC2007459CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,9 +61,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		422C90571E650ACD00FF8C9F /* SQStarRatedView */ = {
+			isa = PBXGroup;
+			children = (
+				422C90581E650ACD00FF8C9F /* Resources */,
+				422C905B1E650ACD00FF8C9F /* SQStarRatedView.h */,
+				422C905C1E650ACD00FF8C9F /* SQStarRatedView.m */,
+			);
+			path = SQStarRatedView;
+			sourceTree = "<group>";
+		};
+		422C90581E650ACD00FF8C9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				422C90591E650ACD00FF8C9F /* sq_background_star@3x.png */,
+				422C905A1E650ACD00FF8C9F /* sq_foreground_star@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		42FCB5031E610AC2007459CA = {
 			isa = PBXGroup;
 			children = (
+				422C90571E650ACD00FF8C9F /* SQStarRatedView */,
 				42FCB50E1E610AC2007459CA /* SQStarRateView */,
 				42FCB50D1E610AC2007459CA /* Products */,
 				8D68C393D97F0414F2B6EAC0 /* Pods */,
@@ -170,6 +197,8 @@
 				42FCB5221E610AC2007459CA /* LaunchScreen.storyboard in Resources */,
 				42FCB51F1E610AC2007459CA /* Assets.xcassets in Resources */,
 				42FCB51A1E610AC2007459CA /* Main.storyboard in Resources */,
+				422C905D1E650ACD00FF8C9F /* sq_background_star@3x.png in Resources */,
+				422C905E1E650ACD00FF8C9F /* sq_foreground_star@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +259,7 @@
 			files = (
 				42FCB51D1E610AC2007459CA /* SQStarRateView.xcdatamodeld in Sources */,
 				42FCB5171E610AC2007459CA /* ViewController.m in Sources */,
+				422C905F1E650ACD00FF8C9F /* SQStarRatedView.m in Sources */,
 				42FCB5141E610AC2007459CA /* AppDelegate.m in Sources */,
 				42FCB5111E610AC2007459CA /* main.m in Sources */,
 			);

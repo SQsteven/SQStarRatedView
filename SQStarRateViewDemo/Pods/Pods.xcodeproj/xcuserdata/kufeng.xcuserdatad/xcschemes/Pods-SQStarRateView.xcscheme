@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F23CFC61D96CFE6762C5CFD287A3CA86'
+               BlueprintIdentifier = '5395C65FD3A62BD5F7376696390B10F7'
                BlueprintName = 'Pods-SQStarRateView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-SQStarRateView.a'>

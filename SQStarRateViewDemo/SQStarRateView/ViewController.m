@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <SQStarRatedView.h>
+#import "SQStarRatedView.h"
 
 @interface ViewController ()<SQStarRatedViewDelegate>
 

@@ -1,1 +1,0 @@
-../../../SQStarRatedView/SQStarRatedView/SQStarRatedView.h
